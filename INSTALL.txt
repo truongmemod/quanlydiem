@@ -1,0 +1,77 @@
+╔═══════════════════════════════════════════════════════════════╗
+║       HỆ THỐNG QUẢN LÝ ĐIỂM SINH VIÊN - HƯỚNG DẪN CÀI ĐẶT    ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📌 YÊU CẦU:
+- XAMPP (hoặc WAMP/LAMP)
+- Trình duyệt web
+
+🚀 CÀI ĐẶT NHANH (3 BƯỚC):
+
+[BƯỚC 1] CÀI ĐẶT XAMPP
+   1. Tải XAMPP: https://www.apachefriends.org/
+   2. Cài đặt XAMPP
+   3. Mở XAMPP Control Panel
+   4. Nhấn "Start" cho Apache và MySQL
+
+[BƯỚC 2] IMPORT DATABASE
+   1. Mở trình duyệt, truy cập: http://localhost/phpmyadmin
+   2. Click tab "SQL"
+   3. Mở file "database.sql" trong thư mục dự án
+   4. Copy toàn bộ nội dung
+   5. Paste vào ô SQL trong phpMyAdmin
+   6. Click "Go"
+   ✅ Database đã được tạo!
+
+[BƯỚC 3] CÀI ĐẶT SOURCE CODE
+   1. Giải nén thư mục dự án
+   2. Copy toàn bộ vào: C:\xampp\htdocs\quan_ly_diem
+   3. Mở trình duyệt
+   4. Truy cập: http://localhost/quan_ly_diem
+   ✅ Hệ thống sẵn sàng!
+
+🔑 TÀI KHOẢN MẶC ĐỊNH:
+
+┌─────────────┬──────────┬──────────┐
+│  Vai trò    │ Username │ Password │
+├─────────────┼──────────┼──────────┤
+│ Admin       │ admin    │ 123456   │
+│ Giảng viên  │ GV001    │ 123456   │
+│ Sinh viên   │ SV001    │ 123456   │
+└─────────────┴──────────┴──────────┘
+
+✨ TÍNH NĂNG:
+
+ADMIN:
+✅ Quản lý sinh viên (thêm/sửa/xóa/khóa)
+✅ Quản lý giảng viên (thêm/sửa/xóa/khóa)
+✅ Quản lý môn học
+✅ Phân công giảng dạy
+✅ Thống kê tổng quan
+
+GIẢNG VIÊN:
+✅ Xem lớp được phân công
+✅ Nhập điểm sinh viên
+✅ Tự động tính điểm tổng, điểm chữ, hệ 4
+✅ Khóa bảng điểm
+
+SINH VIÊN:
+✅ Xem điểm các môn
+✅ Xem GPA từng kỳ và tích lũy
+✅ Xem tín chỉ đạt/chưa đạt
+✅ Xem thông tin cá nhân
+
+⚠️ LƯU Ý:
+- Đảm bảo Apache và MySQL đang chạy
+- Mật khẩu mặc định: 123456 (nên đổi sau lần đầu đăng nhập)
+- Hỗ trợ upload ảnh: JPG, PNG, GIF, WEBP
+
+📞 HỖ TRỢ:
+Nếu gặp lỗi:
+1. Kiểm tra XAMPP đã chạy chưa
+2. Kiểm tra database đã import chưa
+3. Xem file README.md để biết chi tiết
+
+════════════════════════════════════════════════════════════════
+            Chúc bạn sử dụng hệ thống thành công! 🎓
+════════════════════════════════════════════════════════════════
