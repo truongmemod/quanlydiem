@@ -197,6 +197,6 @@ Nếu gặp vấn đề, vui lòng:
 
 ---
 
-**Phát triển bởi**: Claude AI Assistant
-**Ngày**: 02/02/2026
+**Phát triển bởi**: NNT & VVL
+**Ngày**: 20/03/2026
 **Phiên bản**: 1.0.0
